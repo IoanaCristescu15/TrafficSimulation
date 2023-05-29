@@ -19,9 +19,9 @@ When the program is ran, with each tick of time, vehicles on the road are expect
 ### Back End:
 #### CarRandom
 CarRadom is a random generator class that decides the type of vehicle, when it shows up on the road and its movement.  <br />
-&emsp;- randomly decides if a vehicle should be generated (given the probability)
-&emsp;- randomly decides if a vehicle should turn right (given probability to turn right and probability to turn left)
-&emsp;- randomly decides the type of vehicle (given probability to be a car and probability to be an SUV)
+&emsp;- randomly decides if a vehicle should be generated (given the probability) <br />
+&emsp;- randomly decides if a vehicle should turn right (given probability to turn right and probability to turn left) <br />
+&emsp;- randomly decides the type of vehicle (given probability to be a car and probability to be an SUV) <br />
 
 #### VehicleBase
 Car, Suv, and Truck are subclasses of the parent class VehicleBase which handle the movement of each type of vehicle (move forward or turn right).
